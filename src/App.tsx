@@ -1,8 +1,11 @@
+import Hero from './components/Hero'
+
 export default function App() {
   return (
-    <main>
-      <h1 className="font-robert-medium text-5xl">Haha</h1>
-      <h1 className="font-circular-web text-5xl">Haha</h1>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+      <Hero />
+
+      <section className='z-0 min-h-screen'></section>
     </main>
-  );
+  )
 }
