@@ -1,10 +1,10 @@
 interface Props {
   id: string
   title: string
-  leftIcon: React.ReactNode
+  leftIcon?: React.ReactNode
 
   containerClass: string
-  rightIcon: React.ReactNode
+  rightIcon?: React.ReactNode
 }
 
 export default function Button({ title, id, rightIcon, leftIcon, containerClass }: Props) {
