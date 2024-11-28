@@ -64,7 +64,6 @@ export default function Navbar() {
             <Button
               id='product-button'
               title='Products'
-              leftIcon={null}
               rightIcon={<TiLocationArrow />}
               containerClass='bg-blue-50 md:flex hidden items-center justify-center gap-1'
             />

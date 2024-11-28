@@ -75,7 +75,8 @@ export default function Story() {
               Where realms converge, lies Zentry and the boundless pillar. Discover its secrets and shape your fate
               amidst infinite opportunities.
             </p>
-            <Button id='realm-button' title='discover prologue' containerClass='mt-5' />
+
+            <Button id='realm-btn' title='discover prologue' containerClass='mt-5' />
           </div>
         </div>
       </div>
