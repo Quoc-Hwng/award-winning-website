@@ -9,8 +9,8 @@ const navItems = ['Nexus', 'Vault', 'Prologue', 'About', 'Contact']
 export default function Navbar() {
   const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false)
   const [isIndicatorActive, setIsIndicatorActive] = useState<boolean>(false)
-  const [lastScrollY, setLastScrollY] = useState(0)
-  const [isNavVisible, setIsNavVisible] = useState(true)
+  const [lastScrollY, setLastScrollY] = useState<number>(0)
+  const [isNavVisible, setIsNavVisible] = useState<boolean>(true)
 
   const navContainerRef = useRef<HTMLDivElement>(null)
   const audioElementRef = useRef<HTMLAudioElement | null>(null)
