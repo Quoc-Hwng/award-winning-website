@@ -6,7 +6,7 @@ interface Props {
 }
 
 export default function AnimatedTitle({ title, containerClass }: Props) {
-  const containerRef = useRef(null)
+  const containerRef = useRef<HTMLDivElement>(null)
   useEffect(() => {
     const ctx = gsap.context(() => {
       const titleAnimation = gsap.timeline({

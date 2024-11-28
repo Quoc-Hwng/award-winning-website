@@ -8,10 +8,10 @@ import { ScrollTrigger } from 'gsap/all'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Hero() {
-  const [currentIndex, setCurrentIndex] = useState(1)
-  const [hasClicked, setHasClicked] = useState(false)
-  const [loading, setLoading] = useState(true)
-  const [loadedVideos, setLoadedVideos] = useState(0)
+  const [currentIndex, setCurrentIndex] = useState<number>(1)
+  const [hasClicked, setHasClicked] = useState<boolean>(false)
+  const [loading, setLoading] = useState<boolean>(true)
+  const [loadedVideos, setLoadedVideos] = useState<number>(0)
 
   const totalVideos = 3
   const nextVideoRef = useRef<HTMLVideoElement | null>(null)
